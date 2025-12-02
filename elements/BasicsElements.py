@@ -4,7 +4,7 @@ layout.addWidget(Label) # you must use layout.addWidget(Thing) in order for it t
 
 # Create a QLineEdit
 input = QLineEdit()
-input.setPlaceholderText("Enter city name...") # Hint text for the user
+input.setPlaceholderText("text") # Hint text for the user
 layout.addWidget(input)
 
 # Create a QPushButton with text
