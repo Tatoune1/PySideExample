@@ -28,7 +28,6 @@ pip install -r requirements.txt
 ```
 or 
 ```bash
-pip install requests
 pip install PySide6
 ```
 
