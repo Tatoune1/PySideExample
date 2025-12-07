@@ -1,13 +1,10 @@
 # PySideExample
 Creating an app from scratch can be really depressing, especially if you’re as lazy as I am. So, in order to make my life (and yours) more enjoyable when building stuff, I’ve made templates for basic uses of the PySide6 library. These include buttons, labels, and lots of other elements with simple examples.  
-The repo is divided into two sections:
-* Qt elements and explanations on how to use them
-* Examples showing how those Qt elements are used in code
+The repo will show differents elements of Qt such as widgets or layouts, and an explanation on how to use them
 
 ## Features
 
-* Basic Qt elemnts such as label, buttons, image and so on
-* basic example of these elemtents in use
+* Basic Qt elements such as label, buttons, image and so on
 * basics procedures that can be used with these elements (When something is clik, hover, ...)
 
 
