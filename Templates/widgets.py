@@ -1,5 +1,6 @@
 # create a QLabel
 Label = QLabel("Text")
+Label.setText("Text2")
 
 # Create a QLineEdit
 input = QLineEdit()
