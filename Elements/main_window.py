@@ -1,11 +1,16 @@
 from PySide6.QtWidgets import *
+
 import sys
 
-app = QApplication(sys.argv) #Central control object for the app and manages vent loop, settings, and general lifecycle. Must create one QApplication instance per app.
-window = QWidget()
-window.setWindowTitle("Title")
+#Basic templates of a window with Qt
+class MyWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("My window")
+        #add Qwidget
 
+
+app = QApplication(sys.argv)
+window = MyWindow()
 window.show()
-sys.exit(app.exec())
-
-#create an empty window of an app, with a title.
+app.exec()
